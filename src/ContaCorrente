@@ -1,0 +1,10 @@
+public class ContaCorrente extends Conta {
+
+    @Override
+    public void imprimirExtratos() {
+        System.Out.println("=== Extrato Conta Corrente ===");
+        super.imprimirInfsComuns();
+
+    }
+
+}

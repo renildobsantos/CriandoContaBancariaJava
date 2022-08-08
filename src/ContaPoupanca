@@ -1,0 +1,9 @@
+public class ContaPoupanca extends Conta {
+
+    @Override
+    public void imprimirExtratos() {
+        System.Out.println("=== Extrato Conta Corrente ===");
+        super.imprimirInfsComuns();
+    }
+
+}
